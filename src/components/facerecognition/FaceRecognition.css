@@ -1,0 +1,51 @@
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    }
+
+/*div{
+    display: block;
+    box-sizing: border-box;
+}
+.view{
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.bounding-boxes {
+    position: relative;
+    margin: auto
+}
+.bounding-box-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.demo{
+    display: flex;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.demoexplore{
+    flex: 1 1 auto;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}*/
+.swidth{
+    max-width: 500px !important;
+}

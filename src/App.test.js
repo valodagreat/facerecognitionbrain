@@ -7,3 +7,7 @@ test('renders learn react link', () => {
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+/*
+const wen = image.getAttribute('width')
+    const hen = image.getAttribute('height')
+    console.log(width, height, wen, hen);*/
