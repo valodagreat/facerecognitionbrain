@@ -16,6 +16,7 @@ class SignIn extends Component {
     }
 
     onSubmitSignIn = e => {
+        e.preventDefault()
         fetch('https://tranquil-citadel-68333.herokuapp.com/signin', {
             method : 'POST',
             headers : { 'Content-Type' : 'application/json'},

@@ -15,6 +15,7 @@ class Register extends Component {
     }
 
     onSubmit = (event) => {
+        event.preventDefault()
         fetch('https://tranquil-citadel-68333.herokuapp.com/register', {
             method : 'POST',
             headers : { 'Content-Type' : 'application/json'},
@@ -57,10 +58,10 @@ class Register extends Component {
                                     {/*<label className="pa0 ma0 lh-copy f6 pointer"><input type="checkbox" /> Remember me</label>*/}
                         </fieldset>
                         <div className="">
-                        <input 
+                        <button 
                         onClick={this.onSubmit}
                         className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
-                        value="Register" />
+                        >Register</button>
                         </div>
                     </form>
                 </main>
