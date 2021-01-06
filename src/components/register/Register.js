@@ -15,7 +15,7 @@ class Register extends Component {
     }
 
     onSubmit = (event) => {
-        fetch('http://localhost:3001/register', {
+        fetch('https://tranquil-citadel-68333.herokuapp.com/register', {
             method : 'POST',
             headers : { 'Content-Type' : 'application/json'},
             body : JSON.stringify({
