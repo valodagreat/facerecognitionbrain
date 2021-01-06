@@ -38,7 +38,7 @@ class SignIn extends Component {
             <div>
                 <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
                 <main className="pa4 black-80">
-                    <form className="measure" method='POST' action='localhost:3001/signin'>
+                    <form className="measure" >
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <legend className="f3 fw6 ph0 mh0">Sign In</legend>
                                 <div className="mt3">
